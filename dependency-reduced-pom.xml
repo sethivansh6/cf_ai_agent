@@ -16,9 +16,21 @@
               <goal>shade</goal>
             </goals>
             <configuration>
+              <artifactSet>
+                <excludes>
+                  <exclude>com.google.guava:guava</exclude>
+                </excludes>
+              </artifactSet>
               <transformers>
                 <transformer>
                   <mainClass>com.vansh.AgentServer</mainClass>
+                </transformer>
+                <transformer />
+                <transformer>
+                  <resource>META-INF/spring.handlers</resource>
+                </transformer>
+                <transformer>
+                  <resource>META-INF/spring.schemas</resource>
                 </transformer>
               </transformers>
             </configuration>
