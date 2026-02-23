@@ -8,8 +8,7 @@ public class AgentServer {
     private static final ObjectMapper mapper = new ObjectMapper();
 
     public static void main(String[] args) {
-        FirestoreConfig.initFirestore();  // initialize Firebase
-
+        FirestoreConfig.initFirestore();  
         port(getPort());
 
         post("/chat", (req, res) -> {
@@ -40,7 +39,6 @@ public class AgentServer {
         });
     }
 
-    // Railway sets PORT as env variable
     private static int getPort() {
         String port = System.getenv("PORT");
         return port != null ? Integer.parseInt(port) : 8080;
