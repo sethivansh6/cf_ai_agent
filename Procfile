@@ -1,0 +1,1 @@
+web: java -cp target/AI_Agent-1.0-SNAPSHOT.jar com.vansh.AgentServer
