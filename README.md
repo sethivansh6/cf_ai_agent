@@ -38,7 +38,7 @@ Both share the same core functionality: maintaining persistent conversation memo
 
 ### Deployment
 - **Railway** - Cloud platform for hosting
-  - Live URL: `https://aiagent-production-49e3.up.railway.app`
+  - Live URL: For live url message me
 
 ## Project Structure
 
