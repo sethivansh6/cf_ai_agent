@@ -1,1 +1,1 @@
-web: java -cp target/ai-agent-1.0-SNAPSHOT-jar-with-dependencies.jar com.vansh.AgentServer
+web: java -jar target/ai-agent-1.0-SNAPSHOT.jar
