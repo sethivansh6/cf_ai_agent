@@ -147,7 +147,7 @@ Server starts and listens on `http://localhost:8080/chat`
 
 #### Production Deployment
 
-Live API: `https://aiagent-production-49e3.up.railway.app/chat`
+Live API: For live API contact
 
 ### API Endpoint
 
@@ -213,7 +213,7 @@ curl -X POST http://localhost:8080/chat \
 
 **Example 4: Production API**
 ```bash
-curl -X POST https://aiagent-production-49e3.up.railway.app/chat \
+curl -X POST https://for_live_api_contact/chat \
   -H "Content-Type: application/json" \
   -d '{"email":"user@example.com","message":"Hello"}'
 ```
@@ -349,4 +349,4 @@ MIT License - Feel free to use, modify, and distribute
 
 Author: Vansh
 Repository: https://github.com/sethivansh6/cf_ai_agent
-Live API: https://aiagent-production-49e3.up.railway.app
+Live API: https://for_live_api_contact
